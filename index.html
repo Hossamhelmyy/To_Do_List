@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <title>js project</title>
+    <meta charset="utf-8" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div>
+        <h1>todo list</h1>
+        <div style="display: flex" class="content">
+            <form id="form">
+                <input name="li" type="text" id="input" class="input" placeholder="Enter your todo" autocomplete="off" />
+                <ul class="todos" id="todos"></ul>
+            </form>
+            <div class="paragraph hidden">
+                <p style="text-align: start" custom="li"></p>
+                <span class="close">X</span>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="btn btn-danger delete-all">
+					Delete All
+				</button>
+        </div>
+    </div>
+
+    <form class="padding10">
+        <input class="email-input" placeholder="enter email" />
+        <strong>make validation on this email using js</strong
+			>
+		</form>
+
+		<ul class="tab">
+			<li class="active"><a href="#tab1">Menu 1</a></li>
+			<li><a href="#tab2">Menu 2</a></li>
+			<li><a href="#tab3">Menu 3</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<ul class="contents">
+				<li class="active" id="tab1"><h3>Content 1</h3></li>
+				<li id="tab2"><h3>Content 2</h3></li>
+				<li id="tab3"><h3>Content 3</h3></li>
+			</ul>
+		</div>
+
+		<div class="data">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<form>
+							<div class="form-group">
+								<input
+									class="form-control"
+									name="name"
+									placeholder="name"
+									required
+								/>
+							</div>
+							<div class="form-group">
+								<input
+									class="form-control"
+									name="address"
+									placeholder="address"
+									required
+								/>
+							</div>
+							<div class="form-group">
+								<input
+									class="form-control"
+									name="salary"
+									placeholder="salary"
+									required
+								/>
+							</div>
+							<div class="form-group">
+								<input
+									class="form-control btn btn-success"
+									value="send"
+								/>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-6">
+						<table
+							class="
+								table
+								table-bordered
+								table-striped
+								table-hover
+							"
+						>
+							<tr>
+								<td>name</td>
+								<td>address</td>
+								<td>salary</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		function submit() {
+			e.preventDefault();
+		}
+	</script>
+	<script
+		type="text/javascript"
+		src="js/script.js"
+	></script>
+</html>

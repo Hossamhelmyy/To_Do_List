@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #444;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(175, 135, 214);
+    font-size: 5rem;
+    opacity: 0.4;
+    padding-bottom: 1rem;
+}
+
+form {
+    max-width: 100%;
+    width: 460px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+    width: 100%;
+    display: block;
+    padding: 0.6rem 2rem;
+    font-size: 1.8rem;
+    border: none;
+    color: #444;
+    font-weight: 600;
+}
+
+.input::placeholder {
+    color: #d5d5d5;
+}
+
+.todos {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.todos li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-top: 1px solid #f5f5f5;
+    cursor: pointer;
+    position: relative;
+}
+
+.todos li.completed {
+    text-decoration: line-through;
+    color: #b5b5b5;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.small {
+    margin-top: 2rem;
+    color: #b5b5b5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    list-style: none;
+}
+
+.tab li {
+    display: inline-block;
+    margin-right: 20px;
+    background: #dddd;
+    padding: 10px;
+}
+
+.tab li a {
+    text-decoration: none;
+}
+
+.tab li.active a {
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+.tab-content li {
+    display: none;
+}
+
+.tab-content li.active {
+    display: block;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.paragraph {
+    margin-left: 2rem;
+    position: relative;
+}
+
+.paragraph p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    /* background-color: rgb(218, 209, 211); */
+    padding: 1.2rem 18rem;
+}
+
+.close {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.6rem;
+}
+
+.delete {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.6rem;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #b5b5b5;
+}
+
+.delete:hover {
+    color: #2e2d2d;
+}
+
+h3 {
+    margin-bottom: 3rem;
+}
+
+.delete-all:focus {
+    border: none;
+}
+
+.btn-container {
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+}
